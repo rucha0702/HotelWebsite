@@ -1,0 +1,323 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+.navbar{
+    
+    background-color: black;
+    color:white;
+    overflow: auto; 
+}
+#container{
+    margin:auto;
+    padding:0 20px;
+    max-width: 1100px;
+    overflow:auto;
+    text-align: center;
+}
+.primary{
+    color:#f7c08a;
+    margin-left:80px;
+    text-align: center;
+}
+
+.main{
+    display:block;
+    font-size: 20px;
+    width:500px;
+    margin-left:350px;
+    
+}
+ .btn{
+    display:inline-block;
+    font-size: 22px;
+    color: white;
+    background:#333;
+    padding:12px 20px;
+    padding-bottom: 13px;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover{
+    background:#f7c08a ;
+}
+.btn-white{
+    background:#fff;
+    color:#333;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+.navbar a{
+    color:white;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+.navbar h1{
+    float:left;
+    padding-left: 20px;
+}
+.navbar ul{
+    float:right;
+    list-style: none;
+}
+.navbar li {
+    float: left;}
+
+.navbar li a{display:block;
+    padding:20px;
+    text-align: center;
+}
+.navbar li a:hover,.navbar li a.link ,#hover a{
+    background: #444;
+    
+    color: coral;
+}
+
+.logo{
+    padding-top: 20px;
+}
+.mid{
+    background:url(./home-2.jpg) no-repeat center center/cover;
+    height:600px;
+}
+.mid .content{
+    color: #fff;
+    text-align: center;
+    padding-top: 280px;
+}
+.mid .content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+    margin-left: 60px;
+}
+
+.mid .content p{
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+#home-info{
+    height:400px;
+   
+   
+}
+#home-info .img-left{
+    float:left;
+    width:50%;
+    background:url(./gate.jpg) no-repeat center center/cover;
+    min-height: 100%;
+}
+#home-info .info-right{
+    float: right;
+    text-align: center;
+    width:50%;
+    height:100%;
+    overflow:hidden;
+    padding:50px 30px;
+    color:#fff;
+}
+#home-info .info-right p{
+    padding-bottom:30px;
+}
+.dark{
+    background:#333;
+}
+  .bg-light{
+    background:#f7c08a;
+    
+}
+.bg-dark{
+    background:whitesmoke;
+}
+.box{
+    float:left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+    margin-bottom: 10px;}
+#ftr{
+    text-align: center;
+    background: #444;
+    color: white;
+}
+
+
+
+
+
+
+section h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+}
+#info{
+    color: coral;
+    margin-left:0;
+   } 
+   #wdtmax{
+       margin-top: 30px;
+       margin-left: 30px;
+       margin-bottom: 500px;
+       
+   }
+#wdtmax .left{
+    float:left;
+    width:50%;
+    min-height:100%;
+    font-size: 30px;
+    line-height: 1.7em; 
+    padding-bottom: 70px;
+}
+#wdtmax .right{
+    float:right;
+    width:50%;
+    min-height:100%;
+}
+#wdtmax .right img{
+    display:block;
+    width:70%;
+    margin-top:auto;
+    border-radius: 50%;
+}
+
+.say{
+    display:block;
+    margin-top:70px;
+    margin-left:20px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1.2em;
+    padding-top: 100px;
+
+}
+.container{
+    
+   padding-top: 20px;
+    width: 1100px;
+    margin:auto;
+    padding-left: 250px;
+    height:auto;
+    
+}
+.container img{
+    
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    float: left;
+    margin-right: 40px;
+    
+}
+.container p{
+    display:block;
+    background:lightgray;
+    width:auto;
+    margin-left: 80px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    opacity:0.8;
+    padding:5px;
+
+}
+.final{
+    display: inline-block;
+    background:url(./gate.jpg) no-repeat center center/cover;
+    height: 300px;
+    width:100%;
+    
+}
+form{
+    padding-left: 15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5 px;
+}
+#email, #name, #message{
+    width:100%;
+    padding:10px;
+    border:1px #ddd solid;
+}
+textarea{
+    height:200px;
+}
+button{
+    text-align: center;
+}
+#back{
+    display: inline-block;
+    width: 110px;
+    height:50px;
+    background: black;
+    color: white;
+    border:none;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+.btn:hover{
+    background: lightsalmon;
+}
+#back:hover{
+    background: lightsalmon;
+}
+}
+.form-group{
+    padding-left: 60px;
+    background: whitesmoke;
+    
+    
+}
+.wrapper p{
+    padding-left: 50px;
+    font-size: 20px;
+    background: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name,#email,#message{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+#wdtmax{
+    max-width:100%;
+}
+/*#box-1{
+    text-align: center;
+}
+#box-2{
+    text-align: center;
+}
+#box-3{
+    text-align: center;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
