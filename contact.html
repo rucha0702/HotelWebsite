@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <script src= "https://kit.fontawesome.com/2c46cba632.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="container">
+            <h1 class ="logo"><a href="./index.html">HOTEL UNIVAGO</a></h1>
+            <ul>
+               <li class="link"><a href="./index.html">Home</a></li>
+                 <li class="link"><a href="./about.html">About</a></li>
+                <li class="link" id="hover"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    
+    <section id="contact-form" class = "py-3">
+        <div class="wrapper">
+            <h1 class="heading"><span class="primary">Contact</span>&nbsp;Us</h1>
+            <p>Fill out the following to contact us:</p>
+        
+        <form action="form.php">
+            <div class="form-group">
+                <label for="name"><b>Name</b></label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Email</b></label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message"><b>Message</b></label>
+                <textarea type="text" name="message" id="message"></textarea>
+            </div>
+            <button id="back">Submit</button>
+            
+    </form>
+       </div> 
+    </section>
+    <section id="features">
+        <div class="box bg-light" >
+           <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>20-Street Dallas,Texas</p>
+                 
+        </div>
+        <div class="box bg-dark">
+           <i class="fas fa-phone fa-3x"></i>
+            <h3>Contact Number</h3>
+            <p>(501) 6742538</p>
+        </div>
+        <div class="box bg-light" >
+           <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email</h3>
+            <p>contact@unihot.co.in</p>
+        </div>
+    </section>   
+
+    <footer id="ftr">
+        <p>Hotel Univago &copy:2021,All Rights Reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
